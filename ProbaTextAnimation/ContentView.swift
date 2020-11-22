@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var isShow : Bool = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+
+            ContentView3()
+        }
+        
     }
 }
 

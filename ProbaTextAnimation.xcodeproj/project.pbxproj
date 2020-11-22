@@ -13,6 +13,8 @@
 		CCCF3BC9256A3BC600908F74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCF3BC8256A3BC600908F74 /* Preview Assets.xcassets */; };
 		CCCF3BD4256A3BC600908F74 /* ProbaTextAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCF3BD3256A3BC600908F74 /* ProbaTextAnimationTests.swift */; };
 		CCCF3BDF256A3BC600908F74 /* ProbaTextAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCF3BDE256A3BC600908F74 /* ProbaTextAnimationUITests.swift */; };
+		CCCF3BF0256A3C0100908F74 /* TextAnimetion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCF3BEF256A3C0100908F74 /* TextAnimetion.swift */; };
+		CCCF3BF5256A418900908F74 /* Poli.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCF3BF4256A418900908F74 /* Poli.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		CCCF3BDA256A3BC600908F74 /* ProbaTextAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProbaTextAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCF3BDE256A3BC600908F74 /* ProbaTextAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProbaTextAnimationUITests.swift; sourceTree = "<group>"; };
 		CCCF3BE0256A3BC600908F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCCF3BEF256A3C0100908F74 /* TextAnimetion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnimetion.swift; sourceTree = "<group>"; };
+		CCCF3BF4256A418900908F74 /* Poli.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poli.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				CCCF3BC1256A3BC500908F74 /* ProbaTextAnimationApp.swift */,
 				CCCF3BC3256A3BC500908F74 /* ContentView.swift */,
+				CCCF3BEF256A3C0100908F74 /* TextAnimetion.swift */,
+				CCCF3BF4256A418900908F74 /* Poli.swift */,
 				CCCF3BC5256A3BC600908F74 /* Assets.xcassets */,
 				CCCF3BCA256A3BC600908F74 /* Info.plist */,
 				CCCF3BC7256A3BC600908F74 /* Preview Content */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCCF3BF0256A3C0100908F74 /* TextAnimetion.swift in Sources */,
+				CCCF3BF5256A418900908F74 /* Poli.swift in Sources */,
 				CCCF3BC4256A3BC500908F74 /* ContentView.swift in Sources */,
 				CCCF3BC2256A3BC500908F74 /* ProbaTextAnimationApp.swift in Sources */,
 			);
